@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img src="https://cpdse.dk/wp-content/uploads/2025/07/image-8.png" alt="CPDSE Logo" width="300">
+  <img src="https://www.cpdse.dk/wp-content/uploads/2026/02/Logo_student.png" alt="CPDSE Logo" width="300">
   <br>
   CPDSE – Center for Pharmaceutical Data Science Education
   <br>
