@@ -4,6 +4,8 @@
   <br>
   CPDSE – Center for Pharmaceutical Data Science Education
   <br>
+   <img src="https://img.shields.io/badge/Educational%20Materials-darkgreen?style=flat-square&logo=google-scholar" alt="Educational Materials">
+  <br>
 </h1>
 
 <h4 align="center">
