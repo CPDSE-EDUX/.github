@@ -51,7 +51,7 @@ We aim to:
 This GitHub organization hosts resources that support pharmaceutical data science education and collaboration, including:
 
 - **Teaching materials** – examples, templates, and code to support modern data science teaching in pharma  
-- **Open educational resources** – external notebooks, exercises, and demo projects  
+- [**Open educational resources**](https://github.com/CPDSE-EDUX/.github/wiki) – external notebooks, exercises, and demo projects  
 
 We are continuously growing this organization with resources for pharmaceutical data science.  
 Stay tuned as we add new repositories, teaching modules, and example projects.
