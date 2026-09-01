@@ -42,7 +42,7 @@
 ## Conventions
 Each repository is one course. The main branch is featuring materials from the current year, while materials from prior years are located within branches named after the respective year. 
 The convention for naming a repository is
-`University`-`Education Level`-`Course Code (if applicable)`-`Course Name (English)`-`
+`University`-`Education Level`-`Course Code (if applicable)`-`Course Name (English)`
 
 For example:
 
