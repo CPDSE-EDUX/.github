@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img src="[![Logo](assets/logo_snake_green.png)" alt="CPDSE Logo" width="300">
+  <img src="https://raw.githubusercontent.com/CPDSE/.github/21dc420e13c7720383d8d06ed30c823e1e9a14b6/profile/assets/logo_snake_green.png" alt="CPDSE Logo" width="300">
   <br>
   <img src="https://img.shields.io/badge/Educational%20Materials-white?style=flat-square&logo=google-scholar" alt="Educational Materials">
   <br>
