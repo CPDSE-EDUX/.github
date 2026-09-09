@@ -25,11 +25,9 @@
   </a>
 </p>
 
-## Resources
+## Educational Material
 
 This GitHub organization hosts teaching resources that support pharmaceutical data science education and collaboration on all stages of the educational ladder. This includes materials for the pharma curriculum, PhD courses, workshops, and other resources.
-
----
 
 ## Table of Contents
 | Bachelor | Master | PhD | Life-long learner |
