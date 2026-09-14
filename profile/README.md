@@ -43,7 +43,14 @@ Each repository is one course. The main branch is featuring materials from the c
 The convention for naming a repository is
 `University`-`Education Level`-`Course Code (if applicable)`-`Course Name (English)`
 
-For example:
+| Component | Notes |
+|---|---|
+| University | e.g. `SDU`, `UCPH`. Use `CPDSE` instead if the material is not tied to a specific university. |
+| Education Level | e.g. `BSc`, `MSc`, `PhD`. Use `Workshop` instead if the material is not tied to a specific education level. |
+| Course Code | Optional — include only if the course has one (e.g. `FA100`). |
+| Course Name | In English, hyphenated (spaces become `-`). |
+
+#### Examples:
 
 `SDU-BSc-FA100-Pharmacy-Course-Name`
 
@@ -60,6 +67,32 @@ If it is not tied to a specific education, use `Workshop` instead of the educati
 `CPDSE-Workshop-Name-of-your-Workshop`
 
 There might be exceptions to these rules. 
+
+#### Branching for Different Years
+
+The default branch (`main` or `master`) always holds the **current** year's material. 
+At the end of a course run, that state is snapshotted into a branch named after the year (e.g. `2025`) and pushed to the remote. 
+The default branch then continues forward for the next year.
+
+Use the standardized branch workflow for course repos based on [this shell script file](https://github.com/CPDSE-EDUX/.github/blob/main/course%20reposities/course-year.sh).
+
+To use it, open Git Bash and clone the repository containing the shell script:
+```bash
+git clone https://github.com/CPDSE-EDUX/.github.git ~/course-tools
+```
+
+Set a global Git alias that lets you create a shortcut for a Git command that works across all repositories on your system:
+```bash
+git config --global alias.course-year '!'"bash "'"$HOME/course-tools/course reposities/course-year.sh"'
+```
+
+Navigate to a course repository folder. Inside, use
+```bash
+git course-year
+```
+to run the standardized workflow to generate a new branch at the end of a semester. The script also helps you to switch between branches and other Git features. 
+
+
 
 ---
 
