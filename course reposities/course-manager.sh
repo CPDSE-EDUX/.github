@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# course-year.sh — standardized branch workflow for course repos.
+# course-manager.sh — standardized branch workflow for course repos.
 #
 # Works with any git host (GitHub, GitLab, Bitbucket, self-hosted) since it
 # only uses plain `git` commands. No host-specific CLI (gh, glab, etc.).
@@ -12,15 +12,15 @@
 #   - The default branch then continues to be edited for the next year.
 #
 # Usage:
-#   ./course-year.sh archive <year>       Snapshot current default branch into <year>, push it
-#   ./course-year.sh switch <year|main>   Switch to an existing year branch, or back to the default branch
-#   ./course-year.sh list                 List all local and remote branches
-#   ./course-year.sh new-year             Return to the default branch and pull latest (start of a new run)
+#   ./course-manager.sh archive <year>       Snapshot current default branch into <year>, push it
+#   ./course-manager.sh switch <year|main>   Switch to an existing year branch, or back to the default branch
+#   ./course-manager.sh list                 List all local and remote branches
+#   ./course-manager.sh new-year             Return to the default branch and pull latest (start of a new run)
 #
 # Examples:
-#   ./course-year.sh archive 2025
-#   ./course-year.sh switch 2024
-#   ./course-year.sh list
+#   ./course-manager.sh archive 2025
+#   ./course-manager.sh switch 2024
+#   ./course-manager.sh list
 
 set -euo pipefail
 
@@ -67,7 +67,7 @@ require_clean_worktree() {
 cmd_archive() {
   local year="${1:-}"
   if [[ -z "$year" ]]; then
-    echo "Error: missing year. Usage: course-year.sh archive <year>" >&2
+    echo "Error: missing year. Usage: course-manager.sh archive <year>" >&2
     exit 1
   fi
 
@@ -114,7 +114,7 @@ EOF
 cmd_switch() {
   local target="${1:-}"
   if [[ -z "$target" ]]; then
-    echo "Error: missing target. Usage: course-year.sh switch <year|main>" >&2
+    echo "Error: missing target. Usage: course-manager.sh switch <year|main>" >&2
     exit 1
   fi
   require_clean_worktree
