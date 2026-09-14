@@ -77,7 +77,7 @@ At the end of a course run, that state is snapshotted into a branch named after 
 The default branch then continues forward for the next year.
 
 ### How to work with it as a teacher
-Use the standardized branch workflow for course repos based on [this shell script file](https://github.com/CPDSE-EDUX/.github/blob/main/course%20reposities/course-year.sh). Not used to work with Git? Download the file [SKILL.md](https://github.com/CPDSE-EDUX/.github/blob/main/course%20reposities/SKILL.md) and hand it to an AI agent of your choice to get assistance. It can help you to follow the steps below.
+Use the standardized branch workflow for course repos based on [this shell script file](https://github.com/CPDSE-EDUX/.github/blob/main/course%20reposities/course-manager.sh). Not used to work with Git? Download the file [SKILL.md](https://github.com/CPDSE-EDUX/.github/blob/main/course%20reposities/SKILL.md) and hand it to an AI agent of your choice to get assistance. It can help you to follow the steps below.
 
 #### One-time Setup
 To use it, open Git Bash and clone the repository containing the shell script:
@@ -87,13 +87,13 @@ git clone https://github.com/CPDSE-EDUX/.github.git ~/course-tools
 
 Set a global Git alias that lets you create a shortcut for a Git command that works across all repositories on your system:
 ```bash
-git config --global alias.course-year '!'"bash "'"$HOME/course-tools/course reposities/course-year.sh"'
+git config --global alias.course-manager '!'"bash "'"$HOME/course-tools/course reposities/course-manager.sh"'
 ```
 
 #### Usage
 Navigate to a course repository folder. Inside, use
 ```bash
-git course-year
+git course-manager
 ```
 to run the standardized workflow to generate a new branch at the end of a semester. The script also helps you to switch between branches and other Git features. 
 
