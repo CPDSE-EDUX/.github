@@ -30,7 +30,7 @@ only to point an assistant to that source and to describe when to look.
 ## Related tooling
 
 The yearly branching workflow described in the README is implemented in
-`course-year.sh` (kept alongside this file, or clone it from
+`course-manager.sh` (kept alongside this file, or clone it from
 `https://github.com/CPDSE-EDUX/.github.git`). See the README's "Branching
 for Different Years" section for setup and usage — it documents the git
-alias (`git course-year`) that runs this script from any repository.
+alias (`git course-manager`) that runs this script from any repository.
