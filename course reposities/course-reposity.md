@@ -2,11 +2,34 @@
 
 Example repo used throughout: `https://github.com/CPDSE-EDUX/CPDSE-Course-Repository-Template/`
 
-When creatign a new repository, this repository should also be used as template.
+When creating a new repository, this repository should also be used as template. A new repository should also follow the naming conventions mentioned here:
+
+[https://github.com/CPDSE-EDUX/.github/edit/main/profile/README.md](https://github.com/CPDSE-EDUX/.github/edit/main/profile/README.md)
+
+**This guide assumes that a repository was already created remotely.**
+
+## Standardized Workflow
+Use the standardized branch workflow for course repos based on [this shell script file](https://github.com/CPDSE-EDUX/.github/blob/main/course%20reposities/course-year.sh).
+
+Open Git Bash and clone the repository containing the shell script:
+
+`git clone https://github.com/CPDSE-EDUX/.github.git ~/course-tools`
+
+Set a global Git alias that lets you create a shortcut for a Git command that works across all repositories on your system:
+
+`git config --global alias.course-year '!'"bash "'"$HOME/course-tools/course reposities/course-year.sh"'`
+
+Navigate to a course repository folder. Inside, use
+
+`git course-year`
+
+to automatically run the standardized workflow to generate a new branch at the end of a semester.
 
 ---
 
-## 1. Clone the repo
+## Manual Workflow
+
+### 1. Clone the repo
 
 Open Git Bash, navigate to where you want the project folder, then:
 
@@ -25,7 +48,7 @@ git branch -a     # lists local + remote branches
 
 ---
 
-## 2. Make changes and commit them
+### 2. Make changes and commit them
 
 ```bash
 # edit some files with your editor of choice, then:
@@ -45,7 +68,7 @@ git diff                # see unstaged changes before adding
 
 ---
 
-## 3. Create a branch for a course year
+### 3. Create a branch for a course year
 
 At the end of a course run (e.g. finishing 2025), snapshot `main` into a year branch:
 
@@ -65,7 +88,7 @@ This freezes `2025` so no one (including future-you) accidentally edits archived
 
 ---
 
-## 4. Switch between branches
+### 4. Switch between branches
 
 ```bash
 git branch -a              # list all branches (local + remote)
@@ -90,7 +113,7 @@ git checkout 2024          # Git auto-creates a local tracking branch
 
 ---
 
-## 5. Continue working on `main` for the new year
+### 5. Continue working on `main` for the new year
 
 After archiving `2025`, go back to `main` and keep editing it for the next course run:
 
@@ -106,7 +129,7 @@ git push
 
 ---
 
-## 6. Quick reference table
+### 6. Quick reference table
 
 | Task | Command |
 |---|---|
