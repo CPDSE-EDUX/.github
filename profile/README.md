@@ -66,7 +66,9 @@ If something is not university-specific, use `CPDSE` instead of the
 university. If it is not tied to a specific education level, use `Workshop`
 instead of the education level.
  
-There might be exceptions to these rules.
+There might be exceptions to these rules. 
+
+Creating a new course repository as a teacher? Use this repository as template: `https://github.com/CPDSE-EDUX/CPDSE-Course-Repository-Template/`
 
 ### Branching Examples
 
