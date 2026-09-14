@@ -76,10 +76,8 @@ The default branch (`main` or `master`) always holds the **current** year's mate
 At the end of a course run, that state is snapshotted into a branch named after the year (e.g. `2025`) and pushed to the remote. 
 The default branch then continues forward for the next year.
 
-Use the standardized branch workflow for course repos based on [this shell script file](https://github.com/CPDSE-EDUX/.github/blob/main/course%20reposities/course-year.sh).
-
 ### How to work with it as a teacher
-Not used to work with Git? Download the file [SKILL.md](https://github.com/CPDSE-EDUX/.github/blob/main/course%20reposities/SKILL.md) and hand it to an AI agent of your choice to get assistance. It can help you to follow the steps below.
+Use the standardized branch workflow for course repos based on [this shell script file](https://github.com/CPDSE-EDUX/.github/blob/main/course%20reposities/course-year.sh). Not used to work with Git? Download the file [SKILL.md](https://github.com/CPDSE-EDUX/.github/blob/main/course%20reposities/SKILL.md) and hand it to an AI agent of your choice to get assistance. It can help you to follow the steps below.
 
 #### One-time Setup
 To use it, open Git Bash and clone the repository containing the shell script:
