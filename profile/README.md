@@ -68,7 +68,7 @@ instead of the education level.
  
 There might be exceptions to these rules. 
 
-Creating a new course repository as a teacher? Use this repository as template: `https://github.com/CPDSE-EDUX/CPDSE-Course-Repository-Template/`
+Creating a new course repository as a teacher? Use this repository as template: `https://github.com/CPDSE-EDUX/cpdse-course-template`
 
 ### Branching Examples
 
