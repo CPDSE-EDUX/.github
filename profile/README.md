@@ -32,8 +32,8 @@ This GitHub organization hosts teaching resources that support pharmaceutical da
 ## Table of Contents
 | Bachelor | Master | PhD | Life-long learner |
 |---------|-------------|--------|-------|
-|  |  |  | [R docs for beginners](https://cpdse-edux.github.io/R_documentation/) |
-|  |  |  | [CheatSheets](https://github.com/CPDSE-EDUX/CheatSheets) |
+| [SDU FA515: Pharmaceutical Physical Chemistry](https://github.com/CPDSE-EDUX/SDU-BSc-FA515-Pharmaceutical-Physical-Chemistry) |  |  | [R docs for beginners](https://cpdse-edux.github.io/R_documentation/) |
+| [SDU FA516: Chemical and Pharmaceutical Data Science](https://github.com/CPDSE-EDUX/SDU-BSc-FA516-Chemical-and-Pharmaceutical-Data-Science) |  |  | [CheatSheets](https://github.com/CPDSE-EDUX/CheatSheets) |
 |  |  |  |  |
 |  |  |  |  |
 
