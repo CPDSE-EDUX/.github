@@ -40,7 +40,7 @@ This GitHub organization hosts teaching resources that support pharmaceutical da
 ---
 
 ## Conventions
-Each repository is one course. The main branch is featuring materials from the current year, while materials from prior years are located within branches named after the respective year. 
+Each repository is one course, structured according to the following conventions.
 
 ### Naming Conventions
 
@@ -54,7 +54,7 @@ The convention for naming a repository is
 | Course Code | Optional — include only if the course has one (e.g. `FA100`). |
 | Course Name | In English, hyphenated (spaces become `-`). |
 
-#### Examples:
+Examples:
 ```
 SDU-BSc-FA100-Pharmacy-Course-Name
 UCPH-MSc-FA200-Another-Pharma-Course-Name
@@ -64,22 +64,20 @@ CPDSE-Workshop-Name-of-your-Workshop
 ```
 If something is not university-specific, use `CPDSE` instead of the
 university. If it is not tied to a specific education level, use `Workshop`
-instead of the education level.
- 
-There might be exceptions to these rules. 
+instead of the education level. There might be exceptions to these rules. 
 
-Creating a new course repository as a teacher? Use this repository as template: `https://github.com/CPDSE-EDUX/cpdse-course-template`
-
-### Branching Examples
+### Branching
 
 The default branch (`main` or `master`) always holds the **current** year's material. 
 At the end of a course run, that state is snapshotted into a branch named after the year (e.g. `2025`) and pushed to the remote. 
 The default branch then continues forward for the next year.
 
-### How to work with it as a teacher
-Use the standardized branch workflow for course repos based on [this shell script file](https://github.com/CPDSE-EDUX/.github/blob/main/course%20reposities/course-manager.sh). Not used to work with Git? Download the file [SKILL.md](https://github.com/CPDSE-EDUX/.github/blob/main/course%20reposities/SKILL.md) and hand it to an AI agent of your choice to get assistance. It can help you to follow the steps below.
+### For Teachers
+Creating a new course repository as a teacher? Use this repository as template: [https://github.com/CPDSE-EDUX/cpdse-course-template](https://github.com/CPDSE-EDUX/cpdse-course-template). Remember to name your repository according to the naming conventions.
 
-#### One-time Setup
+Use the standardized branch workflow for course repos based on [this shell script file](https://github.com/CPDSE-EDUX/.github/blob/main/course%20reposities/course-manager.sh). If you are not used to work with Git, download the file [SKILL.md](https://github.com/CPDSE-EDUX/.github/blob/main/course%20reposities/SKILL.md) and hand it to an AI agent of your choice to get assistance. To use the shell script file, you have to do only 3 steps:
+
+#### Setup (once per computer)
 To use it, open Git Bash and clone the repository containing the shell script:
 ```bash
 git clone https://github.com/CPDSE-EDUX/.github.git ~/course-tools
