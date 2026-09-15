@@ -27,7 +27,7 @@
 
 ## Educational Material
 
-This GitHub organization hosts teaching resources that support pharmaceutical data science education and collaboration on all stages of the educational ladder. This includes materials for the pharma curriculum, PhD courses, workshops, and other resources.
+This GitHub organization hosts teaching resources that support pharmaceutical data science education and collaboration on all stages of the educational ladder. This includes materials for the pharma curriculum, PhD courses, workshops, and other resources. Organizational and research repositories can be found at [https://github.com/CPDSE](https://github.com/CPDSE). 
 
 ## Table of Contents
 | Bachelor | Master | PhD | Life-long learner |
