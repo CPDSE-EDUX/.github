@@ -75,7 +75,7 @@ The default branch then continues forward for the next year.
 ### For Teachers
 Creating a new course repository as a teacher? Use this repository as template: [https://github.com/CPDSE-EDUX/cpdse-course-template](https://github.com/CPDSE-EDUX/cpdse-course-template). Remember to name your repository according to the naming conventions.
 
-Use the standardized branch workflow for course repos based on [this shell script file](https://github.com/CPDSE-EDUX/.github/blob/main/course%20reposities/course-manager.sh). If you are not used to work with Git, download the file [SKILL.md](https://github.com/CPDSE-EDUX/.github/blob/main/course%20reposities/SKILL.md) and hand it to an AI agent of your choice to get assistance. To use the shell script file without any AI support, you have to do only 3 steps:
+Use the standardized branch workflow for course repos based on [this shell script file](https://github.com/CPDSE-EDUX/.github/blob/main/course%20reposities/course-manager.sh). To use the shell script, you have to do only the 3 steps shown below. If you are not used to work with Git, download the file [SKILL.md](https://github.com/CPDSE-EDUX/.github/blob/main/course%20reposities/SKILL.md) and hand it to an AI agent of your choice to get assistance. 
 
 #### Setup (once per computer)
 To use it, open Git Bash and clone the repository containing the shell script:
