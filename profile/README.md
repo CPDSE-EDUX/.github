@@ -80,12 +80,12 @@ Use the standardized branch workflow for course repos based on [this shell scrip
 #### Setup (once per computer)
 To use it, open Git Bash and clone the repository containing the shell script:
 ```bash
-git clone https://github.com/CPDSE-EDUX/.github.git ~/course-tools
+git clone https://github.com/CPDSE-EDUX/.github.git ~/Documents/course-tools
 ```
 
 Set a global Git alias that lets you create a shortcut for a Git command that works across all repositories on your system:
 ```bash
-git config --global alias.course-manager '!'"bash "'"$HOME/course-tools/course reposities/course-manager.sh"'
+git config --global alias.course-manager '!'"bash "'"$HOME/Documents/course-tools/course reposities/course-manager.sh"'
 ```
 
 #### Usage
