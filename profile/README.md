@@ -34,7 +34,7 @@ This GitHub organization hosts teaching resources that support pharmaceutical da
 |---------|-------------|--------|-------|
 | [SDU FA516: Chemical and Pharmaceutical Data Science](https://github.com/CPDSE-EDUX/SDU-BSc-FA516-Chemical-and-Pharmaceutical-Data-Science) |  |  | [R docs for beginners](https://cpdse-edux.github.io/R_documentation/) |
 |  |  |  | [CheatSheets](https://github.com/CPDSE-EDUX/CheatSheets) |
-|  |  |  |  |
+|  |  |  |  [CPDSE Workshop 3D Molecular Visualisation with Blender](https://github.com/CPDSE-EDUX/CPDSE-Workshop-3D-Molecular-Visualisation-with-Blender)|
 |  |  |  |  |
 
 ---
