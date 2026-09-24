@@ -242,7 +242,7 @@ cmd_save() {
   else
     echo "" >&2
     echo "Push was rejected. Someone else likely pushed changes first." >&2
-    echo "Run 'pull' (or menu option to get the latest changes), then try saving again." >&2
+    echo "Run menu option 4 to get the latest changes, then try saving again." >&2
     return 1
   fi
 }
