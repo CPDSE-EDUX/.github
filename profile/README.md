@@ -94,7 +94,7 @@ git config --global alias.course-manager '!'"bash "'"$HOME/Documents/course-tool
 ```
 
 #### Usage
-Navigate to a course repository folder. Inside, use
+Navigate to a course repository folder on your computer. Inside, use
 ```bash
 git course-manager
 ```
