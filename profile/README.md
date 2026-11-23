@@ -35,6 +35,7 @@ This GitHub organization hosts teaching resources that support pharmaceutical da
 | [SDU FA504: Drug Formulation and Production C](https://github.com/CPDSE-EDUX/SDU-BSc-FA504-Drug-Formulation-and-Production-C) |  | [UCPH PhD School: AI- & data-driven drug design](https://github.com/CPDSE-EDUX/UCPH-PhD-AI-data-driven-drug-design) | [R docs for beginners](https://cpdse-edux.github.io/R_documentation/) |
 | [SDU FA515: Pharmaceutical Physical Chemistry](https://github.com/CPDSE-EDUX/SDU-BSc-FA515-Pharmaceutical-Physical-Chemistry) |  |  | [CheatSheets](https://github.com/CPDSE-EDUX/CheatSheets) |
 | [SDU FA516: Chemical and Pharmaceutical Data Science](https://github.com/CPDSE-EDUX/SDU-BSc-FA516-Chemical-and-Pharmaceutical-Data-Science) |  |  |  [Workshop: 3D Molecular Visualisation with Blender](https://github.com/CPDSE-EDUX/CPDSE-Workshop-3D-Molecular-Visualisation-with-Blender)|
+| [SDU SU511: Social Pharmacy](https://github.com/CPDSE-EDUX/SDU-BSc-SU511-Social-Pharmacy) |  |  |  |
 |  |  |  |  |
 
 ---
