@@ -32,11 +32,15 @@ This GitHub organization hosts teaching resources that support pharmaceutical da
 ## Table of Contents
 | Bachelor | Master | PhD | Life-long learner |
 |---------|-------------|--------|-------|
-| [SDU FA504: Drug Formulation and Production C](https://github.com/CPDSE-EDUX/SDU-BSc-FA504-Drug-Formulation-and-Production-C) |  | [UCPH PhD School: AI- & data-driven drug design](https://github.com/CPDSE-EDUX/UCPH-PhD-AI-data-driven-drug-design) | [R docs for beginners](https://cpdse-edux.github.io/R_documentation/) |
-| [SDU FA515: Pharmaceutical Physical Chemistry](https://github.com/CPDSE-EDUX/SDU-BSc-FA515-Pharmaceutical-Physical-Chemistry) |  |  | [CheatSheets](https://github.com/CPDSE-EDUX/CheatSheets) |
-| [SDU FA516: Chemical and Pharmaceutical Data Science](https://github.com/CPDSE-EDUX/SDU-BSc-FA516-Chemical-and-Pharmaceutical-Data-Science) |  |  |  [Workshop: 3D Molecular Visualisation with Blender](https://github.com/CPDSE-EDUX/CPDSE-Workshop-3D-Molecular-Visualisation-with-Blender)|
+| [SDU FA511: Drug Formulation and Production A](https://github.com/CPDSE-EDUX/SDU-BSc-FA511-Drug-Formulation-and-Production-A) |  | [UCPH PhD School: AI- & data-driven drug design](https://github.com/CPDSE-EDUX/UCPH-PhD-AI-data-driven-drug-design) | [R docs for beginners](https://cpdse-edux.github.io/R_documentation/) |
+| [SDU FA503: Drug Formulation and Production B](https://github.com/CPDSE-EDUX/SDU-BSc-FA503-Drug-Formulation-and-Production-B) |  |  | [CheatSheets](https://github.com/CPDSE-EDUX/CheatSheets) |
+| [SDU FA504: Drug Formulation and Production C](https://github.com/CPDSE-EDUX/SDU-BSc-FA504-Drug-Formulation-and-Production-C) |  |  | [Workshop: 3D Molecular Visualisation with Blender](https://github.com/CPDSE-EDUX/CPDSE-Workshop-3D-Molecular-Visualisation-with-Blender) |
 | [SDU SU511: Social Pharmacy](https://github.com/CPDSE-EDUX/SDU-BSc-SU511-Social-Pharmacy) |  |  |  |
-|  |  |  |  |
+| [SDU FA515: Pharmaceutical Physical Chemistry](https://github.com/CPDSE-EDUX/SDU-BSc-FA515-Pharmaceutical-Physical-Chemistry) |  |  |  |
+| [SDU FA516: Chemical and Pharmaceutical Data Science](https://github.com/CPDSE-EDUX/SDU-BSc-FA516-Chemical-and-Pharmaceutical-Data-Science) |  |  |  |
+| [UCPH Pharmacometrics](https://github.com/CPDSE-EDUX/CPH-Bsc-Pharmacometrics) |  |  |  |
+
+
 
 ---
 
